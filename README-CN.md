@@ -1,4 +1,4 @@
-# syn-ssr-cli
+# project-cli
 
 一个用于创建服务端渲染（SSR）项目的命令行工具，提供了预配置的项目模板。
 
@@ -16,7 +16,7 @@
 ## 安装
 
 ```bash
-npm install -g syn-ssr-cli
+npm install -g project-cli
 ```
 
 ## 使用方法
@@ -66,8 +66,8 @@ CLI 将引导您完成以下步骤：
 
 1. Fork 并克隆仓库：
    ```bash
-   git clone https://github.com/YOUR_USERNAME/syn-ssr-cli.git
-   cd syn-ssr-cli
+   git clone https://github.com/YOUR_USERNAME/project-cli.git
+   cd project-cli
    ```
 
 2. 安装依赖：

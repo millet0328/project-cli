@@ -1,0 +1,54 @@
+{
+  "name": "syn-ssr-cli",
+  "version": "0.0.1",
+  "description": "A CLI tool for creating Server-Side Rendering projects",
+  "main": "./bin/index.mjs",
+  "bin": {
+    "syn": "./bin/index.mjs"
+  },
+  "exports": {
+    ".": {
+      "default": "./bin/index.mjs"
+    }
+  },
+  "keywords": [
+    "cli",
+    "ssr",
+    "server-side rendering",
+    "generator",
+    "template"
+  ],
+  "author": "Your Name <your.email@example.com>",
+  "license": "MIT",
+  "homepage": "https://git.haier.net/zjdz-3d-web/self/syn-ssr-cli#readme",
+  "bugs": {
+    "url": "https://git.haier.net/zjdz-3d-web/self/syn-ssr-cli/issues"
+  },
+  "scripts": {
+    "build": "unbuild",
+    "dev": "unbuild --stub",
+    "test": "node --test test/*.test.mjs",
+    "test:watch": "node --test --watch test/*.test.mjs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://git.haier.net/zjdz-3d-web/self/syn-ssr-cli.git"
+  },
+  "dependencies": {
+    "@clack/prompts": "^0.11.0",
+    "@npmcli/git": "^7.0.1",
+    "commander": "^14.0.2",
+    "semver": "^7.7.3"
+  },
+  "devDependencies": {
+    "@types/node": "^25.0.3",
+    "unbuild": "^3.6.1"
+  },
+  "files": [
+    "bin",
+    "package.json"
+  ],
+  "engines": {
+    "node": ">=14.0.0"
+  }
+}

@@ -33,6 +33,7 @@ node_modules/
 # Build/output
 dist
 build/Release
+bin
 
 # Environment variables
 .env

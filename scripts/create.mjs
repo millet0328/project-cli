@@ -17,8 +17,8 @@ export async function createProject(projectName) {
     if (!projectName) {
         projectName = await text({
             message: 'Project name:',
-            placeholder: 'my-ssr-app',
-            initialValue: 'my-ssr-app',
+            placeholder: 'project-1',
+            initialValue: 'project-1',
             validate: (value) => {
                 const trimmedValue = value.trim();
 

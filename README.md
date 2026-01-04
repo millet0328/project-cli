@@ -1,4 +1,4 @@
-# syn-ssr-cli
+# project-cli
 
 A CLI tool for creating Server-Side Rendering (SSR) projects with pre-configured templates.
 
@@ -16,7 +16,7 @@ A CLI tool for creating Server-Side Rendering (SSR) projects with pre-configured
 ## Installation
 
 ```bash
-npm install -g syn-ssr-cli
+npm install -g project-cli
 ```
 
 ## Usage
@@ -66,8 +66,8 @@ To set up the development environment:
 
 1. Fork and clone the repository:
    ```bash
-   git clone https://github.com/YOUR_USERNAME/syn-ssr-cli.git
-   cd syn-ssr-cli
+   git clone https://github.com/YOUR_USERNAME/project-cli.git
+   cd project-cli
    ```
 
 2. Install dependencies:
